@@ -11,6 +11,7 @@ public class Main {
         snowCardDeliveryDays(1000);
     }
 
+
     private static void checkIsLeapYear(int year) {
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " високосный год");
